@@ -1,11 +1,13 @@
 package toys;
 
 public class Bear extends Toys{
-    public Bear(String name, int id, int frequency, int quantity) {
-        super(name, id, frequency, quantity);
+
+    public Bear(String name, int id,  int quantity) {
+        super(name, id, quantity);
     }
 
     public Bear(int id) {
-        super("Медвежонок", id, 1, 5);
+        super("Медвежонок", id,5);
     }
+
 }
